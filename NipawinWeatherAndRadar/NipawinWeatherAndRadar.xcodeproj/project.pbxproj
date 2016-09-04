@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		15E6D8031D7B8DF60078F8D9 /* PreferenceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E6D8011D7B8DF60078F8D9 /* PreferenceHelper.m */; };
 		15E6D8061D7B8E210078F8D9 /* WeatherList.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E6D8051D7B8E210078F8D9 /* WeatherList.m */; };
+		15E6D8091D7BAD9D0078F8D9 /* Government_of_Canada_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E6D8081D7BAD9D0078F8D9 /* Government_of_Canada_logo.png */; };
+		15E6D80B1D7BAF030078F8D9 /* AccuWeather_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E6D80A1D7BAF030078F8D9 /* AccuWeather_Logo.png */; };
+		15E6D80D1D7BAF880078F8D9 /* bunge_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E6D80C1D7BAF880078F8D9 /* bunge_logo.png */; };
+		15E6D80F1D7BB08F0078F8D9 /* The_Weather_Network_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 15E6D80E1D7BB08F0078F8D9 /* The_Weather_Network_Logo.png */; };
 		F4090B941A0F67D000651F6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4090B931A0F67D000651F6F /* main.m */; };
 		F4090B971A0F67D000651F6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4090B961A0F67D000651F6F /* AppDelegate.m */; };
 		F4090B9A1A0F67D000651F6F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4090B991A0F67D000651F6F /* ViewController.m */; };
@@ -39,6 +43,10 @@
 		15E6D8021D7B8DF60078F8D9 /* PreferenceHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferenceHelper.h; sourceTree = "<group>"; };
 		15E6D8041D7B8E210078F8D9 /* WeatherList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherList.h; sourceTree = "<group>"; };
 		15E6D8051D7B8E210078F8D9 /* WeatherList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherList.m; sourceTree = "<group>"; };
+		15E6D8081D7BAD9D0078F8D9 /* Government_of_Canada_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Government_of_Canada_logo.png; sourceTree = "<group>"; };
+		15E6D80A1D7BAF030078F8D9 /* AccuWeather_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AccuWeather_Logo.png; sourceTree = "<group>"; };
+		15E6D80C1D7BAF880078F8D9 /* bunge_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bunge_logo.png; sourceTree = "<group>"; };
+		15E6D80E1D7BB08F0078F8D9 /* The_Weather_Network_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = The_Weather_Network_Logo.png; sourceTree = "<group>"; };
 		F4090B8E1A0F67D000651F6F /* NipawinWeatherAndRadar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NipawinWeatherAndRadar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4090B921A0F67D000651F6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4090B931A0F67D000651F6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -84,6 +92,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15E6D8071D7BACD90078F8D9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				15E6D8081D7BAD9D0078F8D9 /* Government_of_Canada_logo.png */,
+				15E6D80A1D7BAF030078F8D9 /* AccuWeather_Logo.png */,
+				15E6D80E1D7BB08F0078F8D9 /* The_Weather_Network_Logo.png */,
+				15E6D80C1D7BAF880078F8D9 /* bunge_logo.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		F4090B851A0F67D000651F6F = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +125,7 @@
 		F4090B901A0F67D000651F6F /* NipawinWeatherAndRadar */ = {
 			isa = PBXGroup;
 			children = (
+				15E6D8071D7BACD90078F8D9 /* Images */,
 				F4090BC71A0FD74700651F6F /* SWRevealViewController */,
 				F4090B951A0F67D000651F6F /* AppDelegate.h */,
 				F4090B961A0F67D000651F6F /* AppDelegate.m */,
@@ -253,9 +273,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15E6D80D1D7BAF880078F8D9 /* bunge_logo.png in Resources */,
+				15E6D8091D7BAD9D0078F8D9 /* Government_of_Canada_logo.png in Resources */,
 				F4090B9D1A0F67D000651F6F /* Main.storyboard in Resources */,
+				15E6D80B1D7BAF030078F8D9 /* AccuWeather_Logo.png in Resources */,
 				F4090BA21A0F67D000651F6F /* LaunchScreen.xib in Resources */,
 				F4090B9F1A0F67D000651F6F /* Images.xcassets in Resources */,
+				15E6D80F1D7BB08F0078F8D9 /* The_Weather_Network_Logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
